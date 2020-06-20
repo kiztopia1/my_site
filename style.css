@@ -1,0 +1,508 @@
+p {
+    font-size: 17px;
+}
+
+h4 {
+    font-size: 23px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+a {
+    font-size: 18px !important;
+}
+
+lable {
+    font-size: 20px
+}
+
+header {
+    background: #d7f0e7;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+header .hero-text {
+    margin-top: 100px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header .hero-text h1 {
+    font-weight: bold;
+    width: 100%;
+    text-align: center
+}
+
+header .hero {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 4px black solid;
+}
+
+header .hero img {
+    height: 100%;
+    width: 100%;
+}
+
+header .me {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -90px
+}
+
+header .me img {
+    width: 160px;
+}
+
+header h2 {
+    text-align: center;
+}
+
+.about {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 20px #3e9c87 solid;
+    margin-bottom: 50px;
+}
+
+.about .about-text {
+    width: 50%;
+    padding: 40px 20px;
+}
+
+.about .about-text h2 {
+    padding: 10px;
+}
+
+.about .about-img {
+    width: 50%;
+    display: flex;
+    align-items: flex-end
+}
+
+.about .about-img img {
+    width: 100%;
+}
+
+
+.skills {
+    list-style: none;
+    line-height: 190%;
+    margin-bottom: 50px;
+}
+
+.skills .skills-header {
+    text-align: center;
+}
+
+.skills .skills-cont {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.skills .skills-cont ul {
+    text-align: left;
+    margin-left: 15%;
+}
+
+.skills .skills-cont .skills-li {
+    text-align: center;
+    padding-top: 20px;
+    width: 30%;
+    margin-right: 3%;
+    border: 1px solid #f4f4f4;
+}
+
+.skills .skills-cont .skills-li .intro {
+    height: 220px;
+}
+
+.skills .skills-cont .skills-li .skill {
+    height: 220px;
+}
+
+.projects {
+    margin: 0;
+    padding: 0;
+}
+
+.projects .projects-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.projects .projects-cont li {
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+
+}
+
+.projects .projects-cont li .img-cont {
+    width: 50%
+}
+
+.projects .projects-cont li .img-cont img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.projects .projects-cont li .text-cont {
+    width: 50%;
+    margin-top: 7%;
+}
+
+.projects .projects-cont li .text-cont h4 {
+    text-align: center;
+    font-weight: bold;
+    color: #3e9c87
+}
+
+.projects .projects-cont li .text-cont p {
+    text-align: center
+}
+
+.projects .projects-cont li .text-cont div {
+    width: 100%;
+    text-align: center
+}
+
+.projects .projects-cont li .text-cont div a {
+    background: #3e9c87;
+    border: #3e9c87;
+}
+
+.start-project {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.start-project .start-project-cont {
+    width: 40%;
+    border-radius: 20px;
+    text-align: center;
+    background: #191919;
+    height: 400px;
+}
+
+.start-project .start-project-cont h3 {
+    font-weight: bold;
+    color: #3e9c87;
+    margin-top: 100px;
+
+}
+
+.start-project .start-project-cont p {
+    padding: 0 10%;
+    color: white;
+    line-height: 250%;
+    margin-bottom: 30px;
+}
+
+.start-project .start-project-cont a {
+    border: 1px solid #3e9c87;
+    border-radius: 9px;
+    padding: 6px 50px;
+}
+
+
+.contact {
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    background: #c9c9c9;
+    margin: 0 10%;
+    border-radius: 10px;
+    position: relative;
+    top: 20vh;
+
+}
+
+.contact h3 {
+    width: 100%;
+    padding-left: 10%;
+    ;
+    display: flex;
+    align-items: center;
+}
+
+.contact .contact-cont {
+    width: 50%;
+    padding: 20px 10%;
+    ;
+}
+
+.contact .subscribe {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.contact .subscribe h4 {
+    width: 100%;
+}
+
+.contact .subscribe form {
+    width: 100%;
+}
+
+.contact .subscribe div {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contact .subscribe div input {
+    width: 60%;
+    border: 1px solid #3e9c87;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.contact .subscribe button {
+    background: #3e9c87;
+
+}
+
+
+footer {
+    height: 70vh;
+    margin: 0;
+    background: #317264;
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: column;
+    flex-wrap: wrap;
+}
+
+footer .tip {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+footer .tip h5 {
+    font-weight: bold;
+    color: #c9c9c9;
+}
+
+footer .social {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+footer .social ul {
+    display: flex;
+    margin: 0 30%;
+    list-style: none
+}
+
+footer .social ul li {
+    flex-grow: 1;
+}
+
+footer .social ul li a {
+    color: white;
+}
+
+footer .copyright {
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+#ball {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    opacity: 0.5;
+    background: #317264;
+    z-index: 11;
+}
+
+@media (max-width: 780px) {
+    h1 {
+        font-size: 29px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    h4 {
+        font-size: 21px;
+    }
+
+    h5 {
+        font-size: 19px;
+    }
+
+    a {
+        font-size: 18px !important;
+    }
+
+    lable {
+        font-size: 18px
+    }
+
+    header p {
+        padding: 0 29px;
+        text-align: center;
+    }
+
+    header .hero {
+        background: url('land.svg') no-repeat;
+        background-size: contain;
+        background-position: bottom
+    }
+
+    header .hero img {
+        display: none;
+    }
+
+    .skills-cont {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .skills-cont .skills-li {
+        min-width: 80%;
+        margin-bottom: 30px;
+        border:2px solid #e2e2e2!important;
+    }
+
+    .projects .projects-cont {
+        padding: 0;
+    }
+
+    .projects .projects-cont li {
+        padding: 10px;
+    }
+
+    .projects .projects-cont li .text-cont div a {
+        font-size: 13px !important;
+        text-align: center
+    }
+
+    .start-project {
+        
+    }
+
+    .start-project .start-project-cont {
+        width: 80%;
+    }
+    .contact .contact-cont{
+        width: 100%;
+    }
+    .contact .subscribe{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 10px
+    }
+
+}
+
+@media (max-width: 450px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    h4 {
+        font-size: 19px;
+    }
+
+    h5 {
+        font-size: 15px;
+    }
+
+    a {
+        font-size: 14px !important;
+    }
+
+    lable {
+        font-size: 15px
+    }
+
+    header p {
+        padding: 0 39px;
+        text-align: center;
+    }
+    .about{
+        flex-wrap: wrap;
+    }
+    .about .about-text {
+        width: 100%;
+        
+    }
+    .about .about-img{
+        width: 100%;
+    }
+    .skills-cont {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .skills-cont .skills-li {
+        min-width: 80%;
+        margin-bottom: 30px;
+        border:2px solid #e2e2e2!important;
+    }
+
+    .projects .projects-cont {
+        padding: 0;
+    }
+
+    .projects .projects-cont li {
+        padding: 10px;
+        
+    }
+    .projects .projects-cont li .text-cont{
+        margin-top: 1px;
+        
+    }
+    .projects .projects-cont li .text-cont div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .projects .projects-cont li .text-cont div a{
+        margin-bottom: 10px;
+    }
+
+    .start-project {
+        
+    }
+
+    .start-project .start-project-cont {
+        width: 80%;
+    }
+    .contact .contact-cont{
+        width: 100%;
+    }
+    .contact .subscribe{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 10px
+    }
+
+}
