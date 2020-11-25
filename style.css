@@ -127,7 +127,7 @@ header h2 {
 
 .skills .skills-cont .skills-li {
     text-align: center;
-    padding-top: 20px;
+    padding: 20px;
     width: 30%;
     margin-right: 3%;
     border: 1px solid #f4f4f4;
@@ -150,7 +150,7 @@ header h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
+    padding: 20px;
 }
 
 .projects .projects-cont li {
@@ -391,6 +391,7 @@ footer .copyright {
 
     .skills-cont .skills-li {
         min-width: 80%;
+        margin:10px;
         margin-bottom: 30px;
         border:2px solid #e2e2e2!important;
     }
@@ -467,12 +468,12 @@ footer .copyright {
     }
     .skills-cont {
         flex-wrap: wrap;
-        padding: 0;
     }
 
     .skills-cont .skills-li {
         min-width: 80%;
         margin-bottom: 30px;
+        padding: 10px;
         border:2px solid #e2e2e2!important;
     }
 
@@ -496,9 +497,6 @@ footer .copyright {
         margin-bottom: 10px;
     }
 
-    .start-project {
-        
-    }
 
     .start-project .start-project-cont {
         width: 80%;
