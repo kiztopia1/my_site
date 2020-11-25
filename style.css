@@ -25,9 +25,16 @@ header {
     position: relative;
     margin-bottom: 50px;
 }
+header-background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(110, 110, 110, 0.199);
+    z-index: 1;
+}
 
 header .hero-text {
-    margin-top: 100px;
+    margin-top: 150px;
     width: 100%;
     position: absolute;
     display: flex;
