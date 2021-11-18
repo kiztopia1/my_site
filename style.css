@@ -17,7 +17,11 @@ a {
 lable {
     font-size: 20px
 }
-
+.high-light{
+    background: #3e9c87;
+    padding: 4px;
+    border-radius: 2px;
+}
 header {
     background: #d7f0e7;
     width: 100%;
@@ -123,6 +127,7 @@ header h2 {
 .skills .skills-cont ul {
     text-align: left;
     margin-left: 15%;
+    display: inline-table;
 }
 
 .skills .skills-cont .skills-li {
@@ -138,7 +143,7 @@ header h2 {
 }
 
 .skills .skills-cont .skills-li .skill {
-    height: 220px;
+    height: 280px;
 }
 
 .projects {
