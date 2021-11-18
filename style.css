@@ -248,26 +248,26 @@ header h2 {
     width: 40%;
     border-radius: 20px;
     text-align: center;
-    background: #191919;
+    background: #3e9c87;
     height: 400px;
 }
 
 .start-project .start-project-cont h3 {
     font-weight: bold;
-    color: #3e9c87;
+    color: rgb(100, 102, 104);
     margin-top: 100px;
 
 }
 
 .start-project .start-project-cont p {
     padding: 0 10%;
-    color: white;
+    color: rgb(100, 102, 104);
     line-height: 250%;
     margin-bottom: 30px;
 }
 
 .start-project .start-project-cont a {
-    border: 1px solid #3e9c87;
+    border: 1px solid rgb(100, 102, 104);
     border-radius: 9px;
     padding: 6px 50px;
 }
@@ -277,8 +277,8 @@ header h2 {
     height: 60vh;
     display: flex;
     flex-wrap: wrap;
-    background: #c9c9c9;
-    margin: 0 10%;
+    background: rgb(100, 102, 104);
+    margin: 0 200px;
     border-radius: 10px;
     position: relative;
     top: 20vh;
@@ -329,7 +329,9 @@ header h2 {
     background: #3e9c87;
 
 }
-
+.contact a{
+    color: white;
+}
 
 footer {
     height: 70vh;
@@ -371,7 +373,9 @@ footer .social ul li {
 footer .social ul li a {
     color: white;
 }
-
+footer a {
+    color:white
+}
 footer .copyright {
     text-align: center;
     width: 100%;
