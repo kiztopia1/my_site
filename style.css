@@ -73,20 +73,24 @@ header-background{
 }
 
 header .hero-text {
-    margin-top: 150px;
+    margin-top: 250px;
     width: 100%;
     position: absolute;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    
 }
 
 header .hero-text h1 {
     font-weight: bold;
+    font-size: 4rem;
     width: 100%;
     text-align: center
 }
-
+header .hero-text p{
+    font-size: 2rem;
+}
 header .hero {
     height: 60vh;
     width: 100%;
