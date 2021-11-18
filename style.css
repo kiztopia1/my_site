@@ -21,7 +21,42 @@ lable {
     background: #3e9c87;
     padding: 4px;
     border-radius: 2px;
+    color: white;
+    position: relative;
 }
+.high-light:hover{
+    background-color: white;
+    color: #191919;
+}
+.icon{
+    width:30px;
+    margin-left: 10px;;
+}
+.pro{
+    background-color: rgb(116, 49, 179);
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    padding:1px 3px;
+    border-radius: 2px;
+}
+.learning{
+    background-color: rgb(26, 148, 22);
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    padding:1px 3px;
+    border-radius: 2px;
+}
+.high-light::before {
+    content: "\2022";
+    color: #3e9c87;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1px;
+    position:absolute;
+    left: -12px
+  }
 header {
     background: #d7f0e7;
     width: 100%;
@@ -143,7 +178,7 @@ header h2 {
 }
 
 .skills .skills-cont .skills-li .skill {
-    height: 280px;
+    height: 300px;
 }
 
 .projects {
